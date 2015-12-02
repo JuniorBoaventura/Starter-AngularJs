@@ -3,7 +3,7 @@
 
   angular
     .module('App')
-    .service('BaseFactory', BaseFactory);
+    .factory('BaseFactory', BaseFactory);
 
   BaseFactory.$inject = [];
 
